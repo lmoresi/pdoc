@@ -48,6 +48,7 @@ if __name__ == '__main__':
         install_requires=[
             "mako",
             "markdown >= 3.0",
+            "python-markdown-math"
         ],
         setup_requires=[
             'setuptools_git',

@@ -24,4 +24,7 @@
     # If set, insert Google Analytics tracking code. Value is GA
     # tracking id (UA-XXXXXX-Y).
     google_analytics = ''
+
+    # Add mathjax scripts if desired (this requires the mkx_math / python-markdown-math extension to be added )
+    mathjax = True
 %>

@@ -367,6 +367,12 @@
     </script><script async src='https://www.google-analytics.com/analytics.js'></script>
   % endif
 
+  % if mathjax:
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+    </script>
+  % endif
+
+
   <%include file="head.mako"/>
 </head>
 <body>

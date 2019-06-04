@@ -74,6 +74,7 @@ _md = markdown.Markdown(
         "markdown.extensions.admonition",
         "markdown.extensions.smarty",
         "markdown.extensions.toc",
+        "mdx_math"
     ],
     extension_configs={
         "markdown.extensions.smarty": dict(
